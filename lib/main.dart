@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         home: Scaffold(
-            backgroundColor: Colors.white,
+            backgroundColor: const Color.fromARGB(216, 255, 255, 255),
             body: SafeArea(
               child: Column(children: [
                 const SizedBox(height: 50),
